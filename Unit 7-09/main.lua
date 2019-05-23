@@ -17,7 +17,7 @@ width = 587,
 height = 707,
 numFrames = 10, }
 
-local sheetIdleKnight = graphics.newImageSheet ("assets/spriteSheets/knightIdle.png.png", sheetOptionsIdle)
+local sheetIdleKnight = graphics.newImageSheet ("assets/spriteSheets/knightIdle.png", sheetOptionsIdle)
 
 
 
@@ -43,7 +43,7 @@ local sequence_data = {
 	start = 1, 
 	count = 10,
 	time = 800,
-	loopCount = 0,
+	loopCount = 1,
 	sheet = sheetIdleKnight
 
 },
@@ -53,7 +53,7 @@ local sequence_data = {
     start = 1,
     count = 10,
     time = 800,
-    loopCount = 0,
+    loopCount = 1,
     sheet = sheetWalkingKnight,
 
     }
@@ -92,7 +92,7 @@ local sheetOptionsIdle =
  numFrames = 10
 }
 
-local sheetIdleNinja = graphics.newImageSheet ("assets/spriteSheets/ninjaBoyIdle.png.png", sheetOptionsIdle )
+local sheetIdleNinja = graphics.newImageSheet ("assets/spriteSheets/ninjaBoyIdle.png", sheetOptionsIdle )
 
 local sheetOptionsWalk = 
 {
@@ -101,7 +101,7 @@ local sheetOptionsWalk =
     numFrames = 10
 }
 
-local sheetWalkingNinja  = graphics.newImageSheet ("assets/spriteSheets/ninjaBoyRun.png.png", sheetOptionsWalk )
+local sheetWalkingNinja  = graphics.newImageSheet ("assets/spriteSheets/ninjaBoyRun.png", sheetOptionsWalk )
 
 local sequence_data = {
 
