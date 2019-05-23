@@ -43,7 +43,7 @@ local sequence_data = {
 	start = 1, 
 	count = 10,
 	time = 800,
-	loopCount = 1,
+	loopCount = 2,
 	sheet = sheetIdleKnight
 
 },
@@ -53,7 +53,7 @@ local sequence_data = {
     start = 1,
     count = 10,
     time = 800,
-    loopCount = 1,
+    loopCount = 5,
     sheet = sheetWalkingKnight,
 
     }
@@ -110,7 +110,7 @@ local sequence_data = {
 	start = 1,
 	count = 10,
 	time = 800,
-	loopCount = 0,
+	loopCount = 2,
 	sheet = sheetIdleNinja
 	 },
 
@@ -121,7 +121,7 @@ local sequence_data = {
     sheet = 1,
     count = 10,
     time = 800,
-    loopCount = 0,
+    loopCount = 5,
     sheet = sheetWalkingNinja
 
     }
